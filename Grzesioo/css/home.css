@@ -1,0 +1,7 @@
+.f-category {
+    display: flexbox;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 60%;
+}
