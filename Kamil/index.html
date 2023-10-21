@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,24 +14,25 @@
     />
   </head>
   <body>
-    <div class="header">
-      <div class="navbar">
-        <a href="index.html">Home</a>
-        <a class="toggle-button">Shop</a>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Pages</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Contact</a></li>
 
-        <div class="menu">
-          <nav class="menu">
-            <ul>
-              <li><a href="#">Opcja 1</a></li>
-              <li><a href="#">Opcja 2</a></li>
-              <li><a href="#">Opcja 3</a></li>
-            </ul>
-          </nav>
-        </div>
-        <a href="pages.html">Pages</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-      </div>
+      <li>
+        <a href="#">Shop</a>
+        <ul class="dropdown">
+          <li><a href="#">test-1</a></li>
+          <li><a href="#">test-2</a></li>
+          <li><a href="#">test-3</a></li>
+          <li><a href="#">test-4</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="header">
+      <div class="navbar"></div>
+
       <div class="service-icons">
         <a href="heart.html"><img src="img/heart.png" alt="heart" /></a>
         <a href="shopping-basket.html"
