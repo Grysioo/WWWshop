@@ -34,24 +34,19 @@ h1 {
     color: black;
     font-size: 30px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
     
 }
 .navbar a{
     color: black;
     font-size: 22px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 .button {
     color: black;
     font-size: 22px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
-div {
-    word-spacing: 30px;
-  }
+
 .service-icons{
     width: 30%;
     height: 5%;
@@ -88,6 +83,7 @@ div {
     height: 100%;
     padding-top: 5%;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text-banner h3 {

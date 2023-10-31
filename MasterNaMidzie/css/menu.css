@@ -52,3 +52,7 @@ ul li:hover ul.dropdown{
     font-family: 'Poppins', sans-serif;
     
 }
+
+.service-icons {
+    word-spacing: 30px;
+}
